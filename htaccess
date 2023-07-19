@@ -1,0 +1,50 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page37873596.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^home$ page37873596.html [NC]
+RewriteRule ^home/$ page37873596.html [NC]
+
+RewriteRule ^cookes$ page37875066.html [NC]
+RewriteRule ^cookes/$ page37875066.html [NC]
+
+RewriteRule ^additional_services$ page37877577.html [NC]
+RewriteRule ^additional_services/$ page37877577.html [NC]
+
+RewriteRule ^header$ page37894877.html [NC]
+RewriteRule ^header/$ page37894877.html [NC]
+
+RewriteRule ^footer$ page37898858.html [NC]
+RewriteRule ^footer/$ page37898858.html [NC]
+
+RewriteRule ^contacts$ page37899893.html [NC]
+RewriteRule ^contacts/$ page37899893.html [NC]
+
+RewriteRule ^reviews$ page37900627.html [NC]
+RewriteRule ^reviews/$ page37900627.html [NC]
+
+RewriteRule ^gallery$ page37901402.html [NC]
+RewriteRule ^gallery/$ page37901402.html [NC]
+
+RewriteRule ^rooms$ page37965583.html [NC]
+RewriteRule ^rooms/$ page37965583.html [NC]
+
+RewriteRule ^room1$ page38011091.html [NC]
+RewriteRule ^room1/$ page38011091.html [NC]
+
+RewriteRule ^rools$ page38049501.html [NC]
+RewriteRule ^rools/$ page38049501.html [NC]
+
+RewriteRule ^room2$ page38049869.html [NC]
+RewriteRule ^room2/$ page38049869.html [NC]
+
+RewriteRule ^room3$ page38051080.html [NC]
+RewriteRule ^room3/$ page38051080.html [NC]
+
+
